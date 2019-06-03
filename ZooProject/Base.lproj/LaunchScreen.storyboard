@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -17,24 +17,8 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lauch screen-1" translatesAutoresizingMaskIntoConstraints="NO" id="Nb8-tZ-1OM" userLabel="ZooLaunchScreen">
-                                <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Nb8-tZ-1OM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="K9P-go-wsY"/>
-                            <constraint firstAttribute="trailing" secondItem="Nb8-tZ-1OM" secondAttribute="trailing" id="h63-An-yjD"/>
-                            <constraint firstAttribute="bottom" secondItem="Nb8-tZ-1OM" secondAttribute="bottom" id="n7N-4J-vov"/>
-                            <constraint firstItem="Nb8-tZ-1OM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="vRZ-5U-MHR"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <variation key="heightClass=regular-widthClass=regular">
-                            <mask key="subviews">
-                                <include reference="Nb8-tZ-1OM"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -42,7 +26,4 @@
             <point key="canvasLocation" x="46" y="366"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="lauch screen-1" width="1125" height="2436"/>
-    </resources>
 </document>

@@ -10,7 +10,6 @@
 		6803C27A22A3A85400FE2FAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C27922A3A85400FE2FAE /* AppDelegate.m */; };
 		6803C27D22A3A85400FE2FAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C27C22A3A85400FE2FAE /* ViewController.m */; };
 		6803C28022A3A85400FE2FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6803C27E22A3A85400FE2FAE /* Main.storyboard */; };
-		6803C28222A3A85600FE2FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6803C28122A3A85600FE2FAE /* Assets.xcassets */; };
 		6803C28522A3A85600FE2FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6803C28322A3A85600FE2FAE /* LaunchScreen.storyboard */; };
 		6803C28822A3A85600FE2FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C28722A3A85600FE2FAE /* main.m */; };
 		6803C29222A3A85600FE2FAE /* ZooProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C29122A3A85600FE2FAE /* ZooProjectTests.m */; };
@@ -19,6 +18,7 @@
 		6803C2B122A3A8BB00FE2FAE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C2B022A3A8BB00FE2FAE /* LoginViewController.m */; };
 		6803C2B522A3A8F000FE2FAE /* SecondLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C2B422A3A8F000FE2FAE /* SecondLoginViewController.m */; };
 		6803C2B822A3A90400FE2FAE /* ConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C2B722A3A90400FE2FAE /* ConfirmViewController.m */; };
+		6818568A22A57C2500C6CBC8 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6818568922A57C2500C6CBC8 /* Asset.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		6803C27B22A3A85400FE2FAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6803C27C22A3A85400FE2FAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6803C27F22A3A85400FE2FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6803C28122A3A85600FE2FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6803C28422A3A85600FE2FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6803C28622A3A85600FE2FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6803C28722A3A85600FE2FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		6803C2B422A3A8F000FE2FAE /* SecondLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondLoginViewController.m; sourceTree = "<group>"; };
 		6803C2B622A3A90400FE2FAE /* ConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmViewController.h; sourceTree = "<group>"; };
 		6803C2B722A3A90400FE2FAE /* ConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmViewController.m; sourceTree = "<group>"; };
+		6818568922A57C2500C6CBC8 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +112,12 @@
 		6803C27722A3A85400FE2FAE /* ZooProject */ = {
 			isa = PBXGroup;
 			children = (
+				6818568922A57C2500C6CBC8 /* Asset.xcassets */,
 				6803C27822A3A85400FE2FAE /* AppDelegate.h */,
 				6803C27922A3A85400FE2FAE /* AppDelegate.m */,
 				6803C27B22A3A85400FE2FAE /* ViewController.h */,
 				6803C27C22A3A85400FE2FAE /* ViewController.m */,
 				6803C27E22A3A85400FE2FAE /* Main.storyboard */,
-				6803C28122A3A85600FE2FAE /* Assets.xcassets */,
 				6803C28322A3A85600FE2FAE /* LaunchScreen.storyboard */,
 				6803C28622A3A85600FE2FAE /* Info.plist */,
 				6803C28722A3A85600FE2FAE /* main.m */,
@@ -263,7 +263,7 @@
 			files = (
 				6803C2AD22A3A89C00FE2FAE /* Login.storyboard in Resources */,
 				6803C28522A3A85600FE2FAE /* LaunchScreen.storyboard in Resources */,
-				6803C28222A3A85600FE2FAE /* Assets.xcassets in Resources */,
+				6818568A22A57C2500C6CBC8 /* Asset.xcassets in Resources */,
 				6803C28022A3A85400FE2FAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF5Y42H6YL;
 				INFOPLIST_FILE = ZooProject/Info.plist;
@@ -483,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF5Y42H6YL;
 				INFOPLIST_FILE = ZooProject/Info.plist;
