@@ -10,7 +10,6 @@
 		6803C27A22A3A85400FE2FAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C27922A3A85400FE2FAE /* AppDelegate.m */; };
 		6803C27D22A3A85400FE2FAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C27C22A3A85400FE2FAE /* ViewController.m */; };
 		6803C28022A3A85400FE2FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6803C27E22A3A85400FE2FAE /* Main.storyboard */; };
-		6803C28522A3A85600FE2FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6803C28322A3A85600FE2FAE /* LaunchScreen.storyboard */; };
 		6803C28822A3A85600FE2FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C28722A3A85600FE2FAE /* main.m */; };
 		6803C29222A3A85600FE2FAE /* ZooProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C29122A3A85600FE2FAE /* ZooProjectTests.m */; };
 		6803C29D22A3A85600FE2FAE /* ZooProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6803C29C22A3A85600FE2FAE /* ZooProjectUITests.m */; };
@@ -45,7 +44,6 @@
 		6803C27B22A3A85400FE2FAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6803C27C22A3A85400FE2FAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6803C27F22A3A85400FE2FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6803C28422A3A85600FE2FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6803C28622A3A85600FE2FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6803C28722A3A85600FE2FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6803C28D22A3A85600FE2FAE /* ZooProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +116,6 @@
 				6803C27B22A3A85400FE2FAE /* ViewController.h */,
 				6803C27C22A3A85400FE2FAE /* ViewController.m */,
 				6803C27E22A3A85400FE2FAE /* Main.storyboard */,
-				6803C28322A3A85600FE2FAE /* LaunchScreen.storyboard */,
 				6803C28622A3A85600FE2FAE /* Info.plist */,
 				6803C28722A3A85600FE2FAE /* main.m */,
 				6803C2AC22A3A89C00FE2FAE /* Login.storyboard */,
@@ -262,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6803C2AD22A3A89C00FE2FAE /* Login.storyboard in Resources */,
-				6803C28522A3A85600FE2FAE /* LaunchScreen.storyboard in Resources */,
 				6818568A22A57C2500C6CBC8 /* Asset.xcassets in Resources */,
 				6803C28022A3A85400FE2FAE /* Main.storyboard in Resources */,
 			);
@@ -336,14 +332,6 @@
 				6803C27F22A3A85400FE2FAE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6803C28322A3A85600FE2FAE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6803C28422A3A85600FE2FAE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -18,16 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App Mobile-06b" translatesAutoresizingMaskIntoConstraints="NO" id="cC5-VC-yOF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avv-4g-k9G">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
+                                <state key="normal" image="Main Screen test"/>
+                                <connections>
+                                    <segue destination="9GB-dr-RWE" kind="show" id="x3c-M0-8o3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="cC5-VC-yOF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="37w-fc-9vI"/>
-                            <constraint firstItem="cC5-VC-yOF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4Fz-Zz-wv2"/>
-                            <constraint firstAttribute="bottom" secondItem="cC5-VC-yOF" secondAttribute="bottom" id="4yP-5A-21R"/>
-                            <constraint firstAttribute="trailing" secondItem="cC5-VC-yOF" secondAttribute="trailing" id="xDR-3K-1cJ"/>
+                            <constraint firstItem="Avv-4g-k9G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KYO-06-Be1"/>
+                            <constraint firstItem="Avv-4g-k9G" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vcg-EI-KYX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Avv-4g-k9G" secondAttribute="trailing" id="uGq-7Q-aUn"/>
+                            <constraint firstAttribute="bottom" secondItem="Avv-4g-k9G" secondAttribute="bottom" id="wb1-y0-269"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -36,8 +40,16 @@
             </objects>
             <point key="canvasLocation" x="116" y="60"/>
         </scene>
+        <!--LoginStoryboard-->
+        <scene sceneID="tD9-g8-qVM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" referencedIdentifier="LoginStoryboard" id="9GB-dr-RWE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zUF-Ey-Me4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="772" y="60"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="App Mobile-06b" width="646" height="1152"/>
+        <image name="Main Screen test" width="9105" height="16184"/>
     </resources>
 </document>
